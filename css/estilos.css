@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;  
+    margin: 20px auto;
+    padding: 2em;
+    flex-direction: column; /* organiza los ítems verticalmente uno debajo de otro*/
+    flex-wrap: wrap; /* si no caben en una línea los elementos, que los meta en la fila siguiente */
+    font-family: 'Architects Daughter', cursive;
+    background-image: url("../img/patron.png");
+    background-repeat: repeat;  
+} 
+
+  article h2 {
+    padding-left: 20px;
+  }
+  
+  header {
+      background-color: #26528c;
+      height: 20%;
+      border: 3px solid black;
+      text-align: center; /* todos los textos centrados */
+      color: white;
+      font-family: 'Architects Daughter', cursive;
+      font-size: 2em;
+  }
+
+  main {
+      display: flex;
+      background-color: rgb(241, 233, 231);
+      height: 60%;
+      border: 3px solid black;
+      justify-content: space-around;
+      flex-direction: row;
+      padding: 1em;
+      margin: 1em;
+  }
+
+  article {
+        background-color: #f2d399;        
+        border: 2px solid #a67665 ;
+        margin: 1em;
+        justify-content: center;
+  }
+
+  .artículos {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+  }
+
+  nav {
+        background-color: #8C2771;
+        color: white;
+        text-align: left;
+        padding: 1em;
+        margin: 1em;
+  }
+
+ footer {
+      display: flex;
+      background-color: #26528c;
+      height: 20%;
+      border: 1px solid #a67665;
+  }
+
+blockquote {
+    background-color:darkgreen;
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.firma {
+    text-align: right;
+}
+
+table{
+    border: #a67665 1px solid;
+    border-collapse: collapse;
+    padding: 2em;
+    margin: 2em;
+    width: 90%;
+}
+
+th {
+    border: #a67665 1px solid;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    background-color: #8C113E;
+    color: white;
+    font-size: 2em;
+}
+
+td {
+    border: #a67665 1px solid;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+    padding: 1em;
+    
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+    align-items: center;
+}
+
+form {
+    margin: 1em auto;
+}
+
+img {
+    padding: 1em;
+    border: #26528c 1px dotted;
+    border-radius: 1em;
+    margin: 1em;
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2em;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+
